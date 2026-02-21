@@ -1,0 +1,99 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.2.14)  21 FEB 2026 18:22
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/chevil/Drive_A/1405/Information&Coding_Theory/Information-Coding_Theory_tranclate/main.tex
+(/home/chevil/Drive_A/1405/Information&Coding_Theory/Information-Coding_Theory_tranclate/main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen142
+\ttl@minus=\dimen143
+\ttl@toksa=\toks17
+\titlewidth=\dimen144
+\titlewidthlast=\dimen145
+\titlewidthfirst=\dimen146
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count271
+\Gm@cntv=\count272
+\c@Gm@tempcnt=\count273
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@layoutwidth=\dimen151
+\Gm@layoutheight=\dimen152
+\Gm@layouthoffset=\dimen153
+\Gm@layoutvoffset=\dimen154
+\Gm@dimlist=\toks19
+) (/usr/share/texmf-dist/tex/xelatex/xepersian/xepersian.sty
+Package: xepersian 2025/02/02 v25.2.2 (Release Persian Gate) Persian typesetting in XeLaTeX
+
+
+/usr/share/texmf-dist/tex/xelatex/xepersian/xepersian.sty:62: Fatal Package xepersian Error: Oops! can not use pdftex.
+(xepersian)                      
+(xepersian)                      The xepersian package requires XeTeX.
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.62   }
+        
+
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+This is a fatal error: LaTeX will abort.
+
+
+
+/usr/share/texmf-dist/tex/xelatex/xepersian/xepersian.sty:62: Emergency stop.
+<read *> 
+         
+l.62   }
+        
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 1176 strings out of 474640
+ 16987 string characters out of 5756381
+ 412032 words of memory out of 5000000
+ 24398 multiletter control sequences out of 15000+600000
+ 559137 words of font info for 37 fonts, out of 8000000 for 9000
+ 264 hyphenation exceptions out of 8191
+ 57i,0n,65p,239b,42s stack positions out of 10000i,1000n,20000p,200000b,200000s
+/usr/share/texmf-dist/tex/xelatex/xepersian/xepersian.sty:62:  ==> Fatal error occurred, no output PDF file produced!
