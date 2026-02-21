@@ -1,0 +1,28 @@
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}[
+        node distance=1.5cm and 1cm,
+        block/.style={draw, rectangle, minimum height=1em, minimum width=4em, fill=blue!5, line width=0.8pt},
+        arrow/.style={-{Stealth[scale=1.2]}, line width=0.8pt}
+    ]
+        % رسم بلوک‌ها
+        \node (source) [block] {اطلاعات منبع};
+        \node (trans) [block, right=of source] {فرستنده};
+        \node (channel) [block, right=of trans, fill=red!5] {کانال};
+        \node (receiver) [block, right=2cm of channel] {گیرنده};
+        \node (dest) [block, right=1.6cm of receiver] {مقصد};
+
+        % رسم فلش‌ها و برچسب‌ها
+        \draw [arrow] (source) -- (trans) node[midway, above] {\footnotesize پیام};
+        \draw [arrow] (trans) -- (channel) node[midway, above] {\footnotesize سیگنال};
+        \draw [arrow] (channel) -- (receiver) node[midway, above] {\footnotesize دریافتی سیگنال};
+        \draw [arrow] (receiver) -- (dest) node[midway, above] {\footnotesize تخمینی پیام};
+
+        % اضافه کردن نویز (اختیاری برای مراحل بعد)
+        \node (noise) [below=0.8cm of channel] {نویز / اختلال};
+        \draw [arrow] (noise) -- (channel);
+
+    \end{tikzpicture}
+    \caption{مدل کلی یک سیستم انتقال اطلاعات}
+    \label{fig:comm_system}
+\end{figure}

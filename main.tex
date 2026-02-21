@@ -1,6 +1,19 @@
 \documentclass[11pt, a4paper, twoside]{book}
 \usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric}
 
+% === math conf ===
+\theoremstyle{definition}
+\newtheorem{definition}{تعریف}[section]
+\newtheorem{example}{مثال}[section]
+
+\theoremstyle{plain}
+\newtheorem{theorem}{قضیه}[section]
+\newtheorem{lemma}{لم}[section]
+% === ========= ===
 
 \usepackage[
   paper=a4paper,      
@@ -46,7 +59,7 @@
     % === End chapter_1 ===
 
     % === Start chapter_1 ===
-    % \include{chapters/chapter_2}
+    \include{chapters/chapter_2}
     % === End chapter_1 === 
 
     % \backmatter

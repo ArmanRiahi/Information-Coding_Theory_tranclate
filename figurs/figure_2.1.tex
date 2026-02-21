@@ -1,0 +1,34 @@
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}[
+        ele/.style={circle, fill=black, inner sep=1.5pt},
+        every node/.style={font=\small},
+        line/.style={-{Stealth[scale=1.5]}, thick, shorten >=2pt, shorten <=2pt}
+    ]
+        \draw[thick] (0,0) ellipse (0.8cm and 2.2cm);
+        \node at (0, 2.5) {الفبای منبع $S$};
+        
+        \node[ele, label=left:{$s_1$}] (s1) at (0, 1.5) {};
+        \node[ele, label=left:{$s_2$}] (s2) at (0, 0.5) {};
+        \node[ele] (s3) at (0, -0.5) {};
+        \node[ele, label=left:{$s_q$}] (sq) at (0, -1.5) {};
+        \node at (0, -0.9) {$\vdots$};
+
+        \draw[thick] (4,0) ellipse (1cm and 2.2cm);
+        \node at (4, 2.5) {کلمات کد $T^+$};
+
+        \node[label=right:{$w_1 = \mathcal{C}(s_1)$}] (w1) at (4, 1.5) {};
+        \node[label=right:{$w_2 = \mathcal{C}(s_2)$}] (w2) at (4, 0.5) {};
+        \node[label=right:{$w_q = \mathcal{C}(s_q)$}] (wq) at (4, -1.5) {};
+        \node at (4, -0.5) {$\vdots$};
+
+        \draw[line, blue] (s1) -- (4, 1.5);
+        \draw[line, blue] (s2) -- (4, 0.5);
+        \draw[line, blue] (sq) -- (4, -1.5);
+
+        \node[blue] at (2, 1) {$\mathcal{C}$};
+
+    \end{tikzpicture}
+    \caption{نمایش تابع کدگذاری $\mathcal{C}$ به عنوان نگاشتی از نمادهای منبع به کلمات کد.}
+    \label{fig:source_mapping}
+\end{figure}
