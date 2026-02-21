@@ -15,6 +15,20 @@
 \newtheorem{lemma}{لم}[section]
 % === ========= ===
 
+% === header pages ===
+\usepackage{fancyhdr}
+\usepackage{lipsum} % For generating dummy text
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyhead[LE,RO]{\thepage} % Page number on left even, right odd
+\fancyhead[RE]{\nouppercase{\leftmark}} % Chapter name on right even
+\fancyhead[LO]{\nouppercase{\rightmark}} % Section name on left odd
+
+% Adjust the line thickness
+\renewcommand{\headrulewidth}{0.4pt}
+% === ============ ===
+
 \usepackage[
   paper=a4paper,      
   top=2.5cm,          
