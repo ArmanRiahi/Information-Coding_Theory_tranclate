@@ -1,4 +1,4 @@
-\documentclass[11pt, a4paper, twoside]{book}
+\documentclass[10pt, a4paper, twoside]{book}
 \usepackage{titlesec}
 \usepackage{amsmath}
 \usepackage{amsthm}
@@ -9,6 +9,7 @@
 \theoremstyle{definition}
 \newtheorem{definition}{تعریف}[section]
 \newtheorem{example}{مثال}[section]
+\newtheorem{exercise}{تمرین}[section]
 
 \theoremstyle{plain}
 \newtheorem{theorem}{قضیه}[section]
@@ -37,19 +38,34 @@
   outer=2cm,          
   bindingoffset=0.5cm 
 ]{geometry}
-
+% === box ===
+\usepackage[most]{tcolorbox}
+\newtcolorbox{introbox}{
+  enhanced,
+  colback=magenta!10!white, 
+  colframe=white,          % حذف خط دور با همرنگ کردن آن با سفید
+  boxrule=0pt,             % ضخامت خط دور صفر
+  sharp corners,           % گوشه‌های تیز مشابه عکس
+  left=15pt,               % فاصله متن از لبه چپ
+  right=15pt,              % فاصله متن از لبه راست
+  top=10pt,                % فاصله از بالا
+  bottom=10pt,             % فاصله از پایین
+  % fontupper=\itshape,      % ایتالیک کردن متن داخل باکس
+  halign=justify           % تراز کردن متن
+}
+% === === ===
 \usepackage{xepersian}
 % Font Setup (Matches your previous settings)
 \settextfont[
     Path = fonts/,
-    Scale = 1.1,
+    Scale = 1,
     Extension = .ttf,
     BoldFont = *Bd,
     ItalicFont = *It,
     BoldItalicFont = *BdIt
-]{XB Yas}
+]{Yas}
 
-\setdigitfont[Path = fonts/, Extension = .ttf]{XB Yas}
+\setdigitfont[Path = fonts/, Extension = .ttf]{Yas}
 
 
 
@@ -73,7 +89,7 @@
     % === End chapter_1 ===
 
     % === Start chapter_1 ===
-    \include{chapters/chapter_2}
+    % \include{chapters/chapter_2}
     % === End chapter_1 === 
 
     % \backmatter
