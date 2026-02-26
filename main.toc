@@ -3,3 +3,6 @@
 \contentsline {section}{\numberline {1.2}کدهای به‌طور یکتا رمزگشایی‌پذیر}{4}{}%
 \contentsline {paragraph}{($\Rightarrow $) فرض کنید $\mathcal {C} \cap \mathcal {C}_\infty \neq \emptyset $}{5}{}%
 \contentsline {paragraph}{($\Leftarrow $) فرض کنید یک مورد رمزگشایی غیریکتا به فرم $\mathbf {t} = u_1 u_2 \dots = v_1 v_2 \dots $ داریم}{6}{}%
+\contentsline {section}{\numberline {1.3}کدهای آنی}{6}{}%
+\contentsline {section}{\numberline {1.4}ساخت کدهای آنی}{7}{}%
+\contentsline {section}{\numberline {1.5}نامساوی کرافت}{9}{}%
