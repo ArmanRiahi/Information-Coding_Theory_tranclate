@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1772102063.11763 "/home/chevil/Drive_A/1405/Information&Coding_Theory/Information-Coding_Theory_tranclate/main.tex" "main.pdf" "main" 1772102065.16549 2
-  "/home/chevil/Drive_A/1405/Information&Coding_Theory/Information-Coding_Theory_tranclate/main.tex" 1772095328.73891 2556 4babc312029e109eebd9ec4789edc446 ""
+["pdflatex"] 1772135723.2803 "/home/chevil/Drive_A/1405/Information&Coding_Theory/Information-Coding_Theory_tranclate/main.tex" "main.pdf" "main" 1772135724.23888 2
+  "/home/chevil/Drive_A/1405/Information&Coding_Theory/Information-Coding_Theory_tranclate/main.tex" 1772135595.69083 2636 f4618fe90fe574c8d74c15d957da2978 ""
   "/usr/share/texmf-dist/tex/generic/iftex/iftex.sty" 1767555874 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty" 1767555874 1057 525c2192b5febbd8c1f662c9468335bb ""
   "/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1767555874 8356 7bbb2c2373aa810be568c29e333da8ed ""
@@ -136,8 +136,8 @@
   "/usr/share/texmf-dist/tex/xelatex/xepersian/xepersian.sty" 1767555874 49805 f67bca6d727576a20d89ab18a4ce0569 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1771018985 2110255 6d14372a1373818dc7441d355dff376a ""
-  "main.aux" 1772102063.11521 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "main.tex" 1772095328.73891 2556 4babc312029e109eebd9ec4789edc446 ""
+  "main.aux" 0 -1 0 "pdflatex"
+  "main.tex" 1772135595.69083 2636 f4618fe90fe574c8d74c15d957da2978 ""
   (generated)
   "main.aux"
   "main.log"
